@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     background-color:#24252A ;
+    color:#edf0f1;
 }
 
 li,a, button{
@@ -37,4 +38,17 @@ header{
 
 .nav_links li a:hover{
     color: #0088a9;
+}
+
+
+.steve-pic {
+   display: flex;
+   justify-content: center;
+   margin: 0;
+}
+
+.steve-message{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
