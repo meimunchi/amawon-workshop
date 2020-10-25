@@ -7,18 +7,6 @@ Source code for Women in Cyberjutsu Intro to Cloud Computing Workshop
 3. Navigate to S3
 4. Create new S3 bucket [disable block all public access]
 5. Set Bucket Policy
-  {
-    "Version": "2012-10-17",
-    "Statement": [
-        {
-            "Sid": "PublicReadForGetBucketObjects",
-            "Effect": "Allow",
-            "Principal": "*",
-            "Action": "s3:GetObject",
-            "Resource": "arn:aws:s3:::steve-candy-shop/*"
-        }
-    ]
-}
 6. Properties > Enable Static Website Hosting
 7. Upload your files
 8. Navigate to your page!
